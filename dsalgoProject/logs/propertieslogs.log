@@ -1,0 +1,17 @@
+[ERROR] 2023-02-13 13:51:48.803 [main] Xpath_Pageobject - The Error msg is :You are not logged in
+[ERROR] 2023-02-13 13:51:53.055 [main] Xpath_Pageobject - The Error msg is :You are not logged in
+[ERROR] 2023-02-13 13:51:57.597 [main] Xpath_Pageobject - The Error msg is :You are not logged in
+[ERROR] 2023-02-13 13:51:58.987 [main] Xpath_Pageobject - The Error msg is :You are not logged in
+[ERROR] 2023-02-13 13:52:00.483 [main] Xpath_Pageobject - The Error msg is :You are not logged in
+[ERROR] 2023-02-13 13:52:01.809 [main] Xpath_Pageobject - The Error msg is :You are not logged in
+[ERROR] 2023-02-13 13:52:03.183 [main] Xpath_Pageobject - The Error msg is :You are not logged in
+[ERROR] 2023-02-13 13:52:04.763 [main] Xpath_Pageobject - The Error msg is :You are not logged in
+[ERROR] 2023-02-13 20:37:54.611 [main] Xpath_Pageobject - The Error msg is :password_mismatch:The two password fields didn’t match.
+[ERROR] 2023-02-13 20:38:26.267 [main] Xpath_Pageobject - The Error msg is :New Account Created. You are logged in as xperia13
+[INFO ] 2023-02-13 21:00:06.391 [main] Xpath_Pageobject - The Page message is :You are logged in
+[ERROR] 2023-02-13 21:04:14.606 [main] Xpath_Pageobject - The Page error is :Invalid Username and Password
+[INFO ] 2023-02-13 21:04:15.153 [main] Xpath_Pageobject - The Page message is :You are logged in
+[ERROR] 2023-02-13 21:23:56.511 [main] Xpath_Pageobject - The Page error is :Invalid Username and Password
+[INFO ] 2023-02-13 21:23:57.204 [main] Xpath_Pageobject - The Page message is :You are logged in
+[ERROR] 2023-02-13 21:28:49.384 [main] Xpath_Pageobject - The Page error is :Invalid Username and Password
+[INFO ] 2023-02-13 21:28:49.955 [main] Xpath_Pageobject - The Page message is :You are logged in

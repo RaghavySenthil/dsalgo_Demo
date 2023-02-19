@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="21" total="22" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-19T14:37:20 EST" name="Default suite" finished-at="2023-02-19T14:37:25 EST" duration-ms="5025">
+    <groups>
+    </groups>
+    <test started-at="2023-02-19T14:37:20 EST" name="Default test" finished-at="2023-02-19T14:37:25 EST" duration-ms="5025">
+      <class name="dsalgo_pageObject.Runner">
+        <test-method is-config="true" signature="Lunch()[pri:0, instance:dsalgo_pageObject.Runner@f19c9d2]" started-at="2023-02-19T14:37:20 EST" name="Lunch" finished-at="2023-02-19T14:37:23 EST" duration-ms="2962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunch -->
+        <test-method signature="signin()[pri:0, instance:dsalgo_pageObject.Runner@f19c9d2]" started-at="2023-02-19T14:37:23 EST" name="signin" finished-at="2023-02-19T14:37:25 EST" duration-ms="1783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo_pageObject.Runner@f19c9d2]" started-at="2023-02-19T14:37:25 EST" name="teardown" finished-at="2023-02-19T14:37:25 EST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- dsalgo_pageObject.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
