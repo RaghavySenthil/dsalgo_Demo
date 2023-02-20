@@ -5,7 +5,7 @@
     <classes>
       <class name="dsalgo_pageObject.Runner">
         <methods>
-          <include name="sign_in_page"/>
+          <include name="Regpage"/>
           <include name="Lunch"/>
           <include name="teardown"/>
         </methods>

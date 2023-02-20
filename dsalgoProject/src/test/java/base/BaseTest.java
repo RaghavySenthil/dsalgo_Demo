@@ -21,7 +21,7 @@ public class BaseTest {
 	public void setup() throws IOException {
 		try {
 			
-		FileReader fr=new FileReader("C:\\Users\\senth\\eclipse-workspace\\dsalgoProject\\src\\test\\resources\\Configfiles\\config.properties");
+		FileReader fr=new FileReader("C:\\Users\\senth\\git\\dsalgo_Demo\\dsalgoProject\\src\\test\\resources\\Configfiles\\config.properties");
            prop.load(fr);
          
 	
