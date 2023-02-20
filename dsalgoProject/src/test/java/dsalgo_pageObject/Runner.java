@@ -13,9 +13,9 @@ import base.BaseTest;
 public class Runner extends BaseTest{
 
 	Rg_login Rg = new Rg_login();
-	LinkedList LL=new LinkedList();
 	Stack SK = new Stack();
 	Array AS = new Array();
+	LinkedList LL= new LinkedList();
 	@BeforeMethod
 	
 	public void Lunch() throws IOException, InterruptedException {
@@ -70,122 +70,26 @@ public class Runner extends BaseTest{
 	public void Linkedlist1() throws IOException, InterruptedException {
 		           
 		Rg.login();
-		LL.LL_getstarted();
-	    LL.Introduction();
-	    LL.perform_for_loop();
+		LL.LList1();
+		LL.PracticeQ();
+		
 	} 
-	@Test 
-	public void Linkedlist2() throws IOException, InterruptedException {
-	    Rg.login();
-	    LL.LL_getstarted();
-        LL.Creating_LinkedList();
-        LL.perform_for_loop();
-	} 
-	@Test 
-	public void Linkedlist3() throws IOException, InterruptedException {
-        Rg.login();
-        LL.LL_getstarted();
-        LL.Types_of_LinkedList();
-        LL.perform_for_loop();
-	} 
-	@Test 
-	public void Linkedlist4() throws IOException, InterruptedException {
-        Rg.login();
-        LL.LL_getstarted();
-        LL.Implement_LinkedList_in_Python();
-        LL.perform_for_loop();
-	} 
-	@Test 
-	public void Linkedlist5() throws IOException, InterruptedException {
-	     Rg.login();
-	     LL.LL_getstarted();
-         LL.Traversal();
-         LL.perform_for_loop();
-	}  
-	@Test 
-	public void Linkedlist6() throws IOException, InterruptedException {    
-        Rg.login();
-        LL.LL_getstarted();
-        LL.Insertion();
-        LL.perform_for_loop();
-	} 
-	@Test 
-	public void Linkedlist7() throws IOException, InterruptedException {   
-        Rg.login();
-        LL.LL_getstarted();
-        LL.Deletion();
-        LL.perform_for_loop();
-	}   
-	@Test 
-	public void Linkedlist8() throws IOException, InterruptedException {   
-        Rg.login();
-        LL.LL_getstarted();
-        LL.Deletion();
-        LL.PracticeQ();
-	}   
+	
 	@Test 
 	public void Stack1() throws IOException, InterruptedException {   
         Rg.login();
-        SK.selectdrop_Stack();
-        SK.Select_Stack();
-        SK.Operation_inStack();
-        SK.perform_for_loop();
-	} 
-	
-	@Test 
-	public void Stack2() throws IOException, InterruptedException {   
-        Rg.login();
-        SK.selectdrop_Stack();
-        SK.Select_Stack();
-        SK.Implementation();
-        SK.perform_for_loop();
-	} 
-	@Test 
-	public void Stack3() throws IOException, InterruptedException {   
-        Rg.login();
-        SK.selectdrop_Stack();
-        SK.Select_Stack();
-        SK.Application();
-        SK.perform_for_loop();
-	} 
-	@Test 
-	public void Stack4() throws IOException, InterruptedException {   
-        Rg.login();
-        SK.selectdrop_Stack();
-        SK.Select_Stack();
-        SK.Application();
+        SK.Stack1();
         SK.PracticeQ();
-	}
-	@Test 
-	public void Array1_PracticeQ1() throws IOException, InterruptedException {  
-		Rg.login();
-		AS.Array_practiceQ();
-		AS.Search_Array(); 
-		AS.Input();
-		
-	}
-	@Test 
-	public void Array1_PracticeQ3() throws IOException, InterruptedException {  
-		Rg.login();
-		AS.Array_practiceQ();
-		AS.Find_Numbers(); 
-		AS.Input();
-		
-	}
-	@Test 
-	public void Array1_PracticeQ5() throws IOException, InterruptedException {  
-		Rg.login();
-		AS.Array_practiceQ();
-		AS.squaresArray();
-		AS.Input();
-		
-	}
+       
+	} 
 	
-  @AfterMethod
+	
+	
+  /*@AfterMethod
   public void teardown()
 {
 driver.quit();
-}
+}*/
 	
 }
 	
