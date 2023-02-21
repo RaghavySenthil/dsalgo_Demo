@@ -53,7 +53,7 @@ public class Runner extends BaseTest{
 		Rg.Register();
 	}
 	@Test 
-	public void sign_in_page() throws IOException, InterruptedException {
+	public void LoginPage() throws IOException, InterruptedException {
 	     
                   Rg.Valid_Invalidlogin();
 		           //Rg.login(); 
@@ -85,11 +85,11 @@ public class Runner extends BaseTest{
 	
 	
 	
-  /*@AfterMethod
+  @AfterMethod
   public void teardown()
 {
 driver.quit();
-}*/
+}
 	
 }
 	

@@ -1,10 +1,16 @@
 package base;
 
 
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -40,7 +46,7 @@ public class BaseTest {
 			System.out.println(nullPointer.getMessage());
 			nullPointer.printStackTrace();
 		}
-	
+		
 		
 }
 	/*

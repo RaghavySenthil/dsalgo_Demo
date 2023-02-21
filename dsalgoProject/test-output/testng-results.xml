@@ -1,20 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-20T13:38:23 EST" name="Default suite" finished-at="2023-02-20T13:38:35 EST" duration-ms="12074">
+  <suite started-at="2023-02-21T12:43:56 EST" name="Default suite" finished-at="2023-02-21T12:44:55 EST" duration-ms="59388">
     <groups>
     </groups>
-    <test started-at="2023-02-20T13:38:23 EST" name="Default test" finished-at="2023-02-20T13:38:35 EST" duration-ms="12074">
+    <test started-at="2023-02-21T12:43:56 EST" name="Default test" finished-at="2023-02-21T12:44:55 EST" duration-ms="59388">
       <class name="dsalgo_pageObject.Runner">
-        <test-method is-config="true" signature="Lunch()[pri:0, instance:dsalgo_pageObject.Runner@55f3c410]" started-at="2023-02-20T13:38:23 EST" name="Lunch" finished-at="2023-02-20T13:38:26 EST" duration-ms="3580" status="PASS">
+        <test-method is-config="true" signature="Lunch()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:43:56 EST" name="Lunch" finished-at="2023-02-21T12:44:00 EST" duration-ms="3799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Lunch -->
-        <test-method signature="Stack1()[pri:0, instance:dsalgo_pageObject.Runner@55f3c410]" started-at="2023-02-20T13:38:27 EST" name="Stack1" finished-at="2023-02-20T13:38:35 EST" duration-ms="8362" status="PASS">
+        <test-method signature="Datastructure()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:00 EST" name="Datastructure" finished-at="2023-02-21T12:44:03 EST" duration-ms="3293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Datastructure -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:03 EST" name="teardown" finished-at="2023-02-21T12:44:03 EST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Lunch()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:03 EST" name="Lunch" finished-at="2023-02-21T12:44:05 EST" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunch -->
+        <test-method signature="Linkedlist1()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:05 EST" name="Linkedlist1" finished-at="2023-02-21T12:44:18 EST" duration-ms="13379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Linkedlist1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:18 EST" name="teardown" finished-at="2023-02-21T12:44:18 EST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Lunch()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:18 EST" name="Lunch" finished-at="2023-02-21T12:44:20 EST" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunch -->
+        <test-method signature="LoginPage()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:20 EST" name="LoginPage" finished-at="2023-02-21T12:44:22 EST" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:22 EST" name="teardown" finished-at="2023-02-21T12:44:22 EST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Lunch()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:22 EST" name="Lunch" finished-at="2023-02-21T12:44:23 EST" duration-ms="1497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunch -->
+        <test-method signature="Regpage()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:23 EST" name="Regpage" finished-at="2023-02-21T12:44:28 EST" duration-ms="4762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Regpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:28 EST" name="teardown" finished-at="2023-02-21T12:44:28 EST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Lunch()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:28 EST" name="Lunch" finished-at="2023-02-21T12:44:31 EST" duration-ms="2067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunch -->
+        <test-method signature="Stack1()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:31 EST" name="Stack1" finished-at="2023-02-21T12:44:36 EST" duration-ms="5694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Stack1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:36 EST" name="teardown" finished-at="2023-02-21T12:44:36 EST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Lunch()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:36 EST" name="Lunch" finished-at="2023-02-21T12:44:38 EST" duration-ms="2078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunch -->
+        <test-method signature="dropdown()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:38 EST" name="dropdown" finished-at="2023-02-21T12:44:39 EST" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:39 EST" name="teardown" finished-at="2023-02-21T12:44:39 EST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Lunch()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:39 EST" name="Lunch" finished-at="2023-02-21T12:44:41 EST" duration-ms="1443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunch -->
+        <test-method signature="home_getstarted()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:41 EST" name="home_getstarted" finished-at="2023-02-21T12:44:41 EST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home_getstarted -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:41 EST" name="teardown" finished-at="2023-02-21T12:44:41 EST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Lunch()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:41 EST" name="Lunch" finished-at="2023-02-21T12:44:43 EST" duration-ms="1468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunch -->
+        <test-method signature="selectAlldrop()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:43 EST" name="selectAlldrop" finished-at="2023-02-21T12:44:51 EST" duration-ms="8250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAlldrop -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:51 EST" name="teardown" finished-at="2023-02-21T12:44:51 EST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Lunch()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:51 EST" name="Lunch" finished-at="2023-02-21T12:44:53 EST" duration-ms="2120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunch -->
+        <test-method signature="signin()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:53 EST" name="signin" finished-at="2023-02-21T12:44:55 EST" duration-ms="1926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsalgo_pageObject.Runner@7997b197]" started-at="2023-02-21T12:44:55 EST" name="teardown" finished-at="2023-02-21T12:44:55 EST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- dsalgo_pageObject.Runner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

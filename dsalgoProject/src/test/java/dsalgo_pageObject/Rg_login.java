@@ -15,6 +15,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+import Utils.ScreenShot;
 import Utils.Utils_Excel;
 import base.BaseTest;
 
@@ -87,7 +88,7 @@ public void selectAlldrop() throws IOException, InterruptedException {
 		logger.error("The Error msg is :" +Msg);
 	}
 	
-	public static void takesScreenshot(String fileName) throws IOException {
+	/*public static void takesScreenshot(String fileName) throws IOException {
 		//1.Take Screenshot and store it as file format:
 		File Screenshotfile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		//2.Now copy the screenshot and time stamp(java.sql) to a desired file location using copy file method:
@@ -95,7 +96,7 @@ public void selectAlldrop() throws IOException, InterruptedException {
 		String dir= System.getProperty("user.dir");
 		FileUtils.copyFile(Screenshotfile,new File(dir+"/src/test/resources/dsalgo_Screenshots/"+fileName+"_"+timestamp+".jpg"));
 		
-	}	
+	}	*/
 	 public void signin()throws IOException {
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));	 
 	 driver.findElement(Signin).click();
@@ -105,7 +106,7 @@ public void selectAlldrop() throws IOException, InterruptedException {
 	 driver.findElement(register).click();
 	 driver.findElement(SubmitReg).click();
 	 Thread.sleep(1000);
-	 takesScreenshot("Register1_page");
+	 ScreenShot.takesScreenshot("Register1_page");
 	
 	 }
 	 public void Regpage2()throws IOException, InterruptedException {
@@ -113,7 +114,7 @@ public void selectAlldrop() throws IOException, InterruptedException {
 	  driver.findElement(username).sendKeys("Hermi");
 	 driver.findElement(SubmitReg).click();
 	 Thread.sleep(1000);
-	 takesScreenshot("Register2_page");
+	 ScreenShot.takesScreenshot("Register2_page");
 	 
 	 }
 	 public void Regpage3()throws IOException, InterruptedException {
@@ -123,7 +124,7 @@ public void selectAlldrop() throws IOException, InterruptedException {
 	 driver.findElement(Password1).sendKeys("saddfgdsf");
 	 driver.findElement(SubmitReg).click();
 	 Thread.sleep(1000);
-	 takesScreenshot("Register3_page");
+	 ScreenShot.takesScreenshot("Register3_page");
 	 
 		 }
 	 public void Regpage4()throws IOException {
@@ -133,7 +134,7 @@ public void selectAlldrop() throws IOException, InterruptedException {
 		 driver.findElement(Password1).sendKeys("skyBlack84#08");
 		 driver.findElement(Password2).sendKeys("skyBlack84#07");
 		 driver.findElement(SubmitReg).click();
-		 takesScreenshot("Register4_page");
+		 ScreenShot.takesScreenshot("Register4_page");
 		 
 			 }
 	 public void Register() throws InterruptedException, IOException {
@@ -152,7 +153,7 @@ public void selectAlldrop() throws IOException, InterruptedException {
 		 
              driver.findElement(Signin).click();
              driver.findElement(login).click();
-             takesScreenshot("Login1");
+             ScreenShot.takesScreenshot("Login1");
              
 	 }
 	 
@@ -161,7 +162,7 @@ public void selectAlldrop() throws IOException, InterruptedException {
          driver.findElement(loginuser).sendKeys("xperia9");
          driver.findElement(login).click();
          Thread.sleep(1000);
-         takesScreenshot("Login2");
+         ScreenShot.takesScreenshot("Login2");
  }
  public void Valid_Invalidlogin() throws InterruptedException, IOException {
 		        
