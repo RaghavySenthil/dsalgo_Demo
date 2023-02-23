@@ -14,8 +14,12 @@ public class Runner extends BaseTest{
 
 	Rg_login Rg = new Rg_login();
 	Stack SK = new Stack();
-	Array AS = new Array();
+	Array ar =new Array();
 	LinkedList LL= new LinkedList();
+	Tree TR = new Tree();
+	Graph GR = new Graph();
+	Queue QU= new Queue();
+	
 	@BeforeMethod
 	
 	public void Lunch() throws IOException, InterruptedException {
@@ -82,14 +86,90 @@ public class Runner extends BaseTest{
         SK.PracticeQ();
        
 	} 
+	@Test 
+	public void Tree() throws IOException, InterruptedException {   
+        Rg.login();
+        TR.AccessTree();
+	}
+	@Test 
+	public void Tree1() throws IOException, InterruptedException {   
+        Rg.login();
+        TR.PracticeQ();
+	}
+	@Test 
+	public void Graph() throws IOException, InterruptedException {   
+        Rg.login();
+        GR.AccessGraph();
+	}
+	@Test 
+	public void Graph1() throws IOException, InterruptedException {   
+        Rg.login();
+        GR.PracticeQ();
+	}
+
+	@Test
+	public void array() throws Exception
+	{
+		Rg.login();
+		ar.Arraysel();
+		ar.performArray();
+		
+	}
+		
 	
+	@Test
+	public void ArrayPracticeQ() throws InterruptedException, IOException
+	{
+		Rg.login();
+		ar.Arraysel();
+		ar.practiceQSearchArray();
+		
+	}
+	@Test
+	public void ArrayMaxConsPracticeQ() throws InterruptedException, IOException
+	{
+		Rg.login();
+		ar.Arraysel();
+		ar.practiceQMaxCons();
+		
+	}
+	@Test
+	public void ArrayfindnoPracticeq() throws InterruptedException, IOException
+	{
+		Rg.login();
+		ar.Arraysel();
+		ar.findnum();
+		
+	}
+	@Test
+	public void ArraysquarePracticeQ() throws InterruptedException, IOException
+	{
+		Rg.login();
+		ar.Arraysel();
+		ar.square();
+		
+	}
+	@Test
+	public void Queue() throws Exception
+	{
+		Rg.login();
+		QU.Quesel();
+		QU.performQueue();
+	}
 	
+	@Test
+	public void QueuepracticeQ()  throws Exception
+	{
+		Rg.login();
+		QU.Quesel();
+		QU.practiceQ();
+	}
 	
-  @AfterMethod
+  /*@AfterMethod
   public void teardown()
 {
 driver.quit();
-}
+}*/
 	
 }
 	
