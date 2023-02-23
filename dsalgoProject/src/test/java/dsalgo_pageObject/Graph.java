@@ -30,11 +30,11 @@ for( int j=2;j<=size;j++) {
 //Thread.sleep(1000);
 By Topic= By.xpath("//body/div/ul[" + j + "]/a[@class='list-group-item']");
 driver.findElement(Topic).click();
-System.out.println("Topic is: "+ Topic);
+//System.out.println("Topic is: "+ Topic);
 for(int i=0;i<l;i++)
 {
 driver.findElement(Tryhere).click();
-System.out.println(code);
+//System.out.println(code);
 driver.findElement(Input).sendKeys(code[i]);
 driver.findElement(Run).click();
 try {

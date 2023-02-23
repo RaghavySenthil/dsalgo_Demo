@@ -165,11 +165,11 @@ public class Runner extends BaseTest{
 		QU.practiceQ();
 	}
 	
-  /*@AfterMethod
+ @AfterMethod
   public void teardown()
 {
 driver.quit();
-}*/
+}
 	
 }
 	

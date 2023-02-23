@@ -33,13 +33,13 @@ public class Queue extends BaseTest {
 		{
 			By Topic= By.xpath("//body/div/ul[" + j + "]/a[@class='list-group-item']");
 			driver.findElement(Topic).click();
-			System.out.println("Topic is: "+ Topic);
+			//System.out.println("Topic is: "+ Topic);
 
 		for(int i=0;i<=2;i++)
 		{
 			driver.findElement(tryhere).click();
 			
-			System.out.println(code);
+			//System.out.println(code);
 
 			driver.findElement(input).sendKeys(code[i]);
 			driver.findElement(run).click();
