@@ -43,7 +43,7 @@ driver.switchTo().alert().accept();
 catch(Exception e){
 }
 driver.navigate().back();
-}
+	}
 driver.navigate().back();
 }
 }
