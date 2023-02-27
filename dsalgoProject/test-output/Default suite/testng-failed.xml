@@ -5,8 +5,9 @@
     <classes>
       <class name="dsalgo_pageObject.Runner">
         <methods>
-          <include name="Graph1"/>
           <include name="Lunch"/>
+          <include name="teardown"/>
+          <include name="Linkedlist1"/>
         </methods>
       </class> <!-- dsalgo_pageObject.Runner -->
     </classes>
