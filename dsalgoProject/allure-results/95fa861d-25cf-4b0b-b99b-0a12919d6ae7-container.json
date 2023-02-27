@@ -1,1 +1,0 @@
-{"uuid":"95fa861d-25cf-4b0b-b99b-0a12919d6ae7","name":"dsalgo_pageObject.Runner.Lunch","children":["7b24a864-563c-47ec-8785-cb6185b23b44"],"description":"","befores":[{"name":"Lunch","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1677190472931,"stop":1677190476915}],"afters":[],"start":1677190472928,"stop":1677190476916}
